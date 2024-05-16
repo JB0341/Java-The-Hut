@@ -9,47 +9,40 @@ const collectEmployees = function() {
   while(true) {
     let firstName = ""
     firstName = prompt(`First Name Please`)
-    if (firstName === null)
-      break
+    if (firstName === null) break
     console.log(`Thank you ${firstName}`)
     
     let lastName = ""
     lastName = prompt(`Last Name Please`)
-    if (lastName === null)
-      break
+    if (lastName === null) break
     console.log(`Thank you ${lastName}`)
     
     let salary = ""
     salary = prompt(`Annual Salary`)
-    if (salary === null)
-      break
+    if (salary === null) break
     console.log(`Salary input ${salary}`)
     
     let employee = {
       firstName: firstName, 
       lastName: lastName,
       salary: salary
+    }
+    employeesArray.push(employee)
+    console.log(employeesArray)
   }
-  employeesArray.push(employee)
-  console.log(employeesArray)
-  }
-  return employee
+  return employeesArray;
 }
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
-  let average = 0
   let total = 0
   for (let i = 0; i < employeesArray.length; i++) {
-    if(employeesArray[i] !== undefined){
-      average++
-      total += employeesArray[i]
-    }
+    console.log(employeesArray[i]);
+    total += +employeesArray[i].salary
   }
-  let avg = total / average
-  }
-
-  displayAverageSalary()
+  let avg = total / employeesArray.length;
+  console.log(avg)
+}
 
 // Select a random employee
 function getRandomEmployee(employeesArray) {

@@ -28,5 +28,6 @@ With some started code given, created an application to collect and record emplo
 
 repository link https://github.com/JB0341/Java-The-Hut
 
-deployed link https://jb0341.github.io/portfolio-building-is-fun/
+deployed link https://jb0341.github.io/Java-The-Hut/
 
+![screenshot](<Payroll Tracker.png>)

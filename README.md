@@ -1,5 +1,4 @@
 # Java-The-Hut
-# portfolio-building-is-fun
 
 This was the week 3 challenge.
 

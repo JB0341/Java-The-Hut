@@ -27,7 +27,7 @@ With some started code given, created an application to collect and record emplo
 
 # Important Links
 
-repository link https://github.com/JB0341/portfolio-building-is-fun 
+repository link https://github.com/JB0341/Java-The-Hut
 
 deployed link https://jb0341.github.io/portfolio-building-is-fun/
 
